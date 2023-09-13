@@ -1,6 +1,9 @@
 requests-unixsocket
 ===================
 
+This repository is a fork from https://github.com/mupuf/requests-unixsocket which is itsef a fork from https://github.com/msabramo/requests-unixsocket
+It includes a fix from https://github.com/mupuf for compatibility with requests > 1.26 and urllib3 > 2 (mupuf's PR https://github.com/msabramo/requests-unixsocket/pull/69 is not taken into account since 2023 May 5)
+
 .. image:: https://badge.fury.io/py/requests-unixsocket.svg
     :target: https://badge.fury.io/py/requests-unixsocket
     :alt: Latest Version on PyPI
